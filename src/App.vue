@@ -1,15 +1,19 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <CaptchaInputBox></CaptchaInputBox>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+// import CaptchaInputBox from '../dist/CaptchaInputBox.umd.min.js'
+import { CaptchaInputBox } from './index'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    CaptchaInputBox
   }
 }
 </script>
