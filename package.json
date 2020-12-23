@@ -1,6 +1,6 @@
 {
   "name": "captcha-input-box",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "main": "dist/CaptchaInputBox.umd.min.js",
   "author": {
