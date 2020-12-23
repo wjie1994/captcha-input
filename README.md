@@ -21,6 +21,10 @@ app.use(CaptchaInputBox)
 import { CaptchaInputBox } from 'captcha-input-box'
 components: [CaptchaInputBox]
 ```
+** 注: ** 需要引入样式
+```javascript
+import 'captcha-input-box/dist/CaptchaInputBox.css'
+```
 template
 ```html
 <captcha-input-box v-model:captcha="loginInfo.captcha" :number="6"></captcha-input-box>
