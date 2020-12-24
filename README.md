@@ -19,7 +19,7 @@ app.use(CaptchaInputBox)
 局部使用
 ```javascript
 import { CaptchaInputBox } from 'captcha-input-box'
-components: [CaptchaInputBox]
+components: { CaptchaInputBox }
 ```
 ** 注: ** 需要引入样式
 ```javascript
