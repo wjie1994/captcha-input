@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-// import CaptchaInputBox from './index'
+// import CaptchaInputVue3 from './index'
 
-// createApp(App).use(CaptchaInputBox).mount('#app')
+// createApp(App).use(CaptchaInputVue3).mount('#app')
 createApp(App).mount('#app')

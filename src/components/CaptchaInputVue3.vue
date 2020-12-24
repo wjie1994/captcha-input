@@ -21,7 +21,7 @@
 import { getCurrentInstance, onMounted, ref, reactive, toRefs } from 'vue'
 
 export default {
-    name: 'CaptchaInputBox',
+    name: 'CaptchaInputVue3',
     props: {
         // 验证码长度
         number: {

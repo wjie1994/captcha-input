@@ -1,8 +1,8 @@
 {
-  "name": "captcha-input-box",
+  "name": "captcha-input-vue3",
   "version": "0.1.2",
   "private": false,
-  "main": "dist/CaptchaInputBox.umd.min.js",
+  "main": "dist/CaptchaInputVue3.umd.min.js",
   "author": {
     "name": "jswangjie"
   },
@@ -16,7 +16,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lib": "vue-cli-service build --target lib --name CaptchaInputBox src/index.js"
+    "lib": "vue-cli-service build --target lib --name CaptchaInputVue3 src/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",

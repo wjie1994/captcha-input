@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["CaptchaInputBox"] = factory(require("vue"));
+		exports["CaptchaInputVue3"] = factory(require("vue"));
 	else
-		root["CaptchaInputBox"] = factory(root["Vue"]);
+		root["CaptchaInputVue3"] = factory(root["Vue"]);
 })((typeof self !== 'undefined' ? self : this), function(__WEBPACK_EXTERNAL_MODULE__8bbf__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -1088,6 +1088,17 @@ module.exports = function (bitmap, value) {
 
 /***/ }),
 
+/***/ "5e0a":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_CaptchaInputVue3_vue_vue_type_style_index_0_id_7d616eb5_lang_less_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("e63a");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_CaptchaInputVue3_vue_vue_type_style_index_0_id_7d616eb5_lang_less_scoped_true__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_CaptchaInputVue3_vue_vue_type_style_index_0_id_7d616eb5_lang_less_scoped_true__WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
+
+/***/ }),
+
 /***/ "605d":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1616,13 +1627,6 @@ module.exports = DESCRIPTORS ? function (object, key, value) {
   return object;
 };
 
-
-/***/ }),
-
-/***/ "9213":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -2953,6 +2957,35 @@ module.exports = TO_STRING_TAG_SUPPORT ? {}.toString : function toString() {
 
 /***/ }),
 
+/***/ "b0c0":
+/***/ (function(module, exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__("83ab");
+var defineProperty = __webpack_require__("9bf2").f;
+
+var FunctionPrototype = Function.prototype;
+var FunctionPrototypeToString = FunctionPrototype.toString;
+var nameRE = /^\s*function ([^ (]*)/;
+var NAME = 'name';
+
+// Function instances `.name` property
+// https://tc39.github.io/ecma262/#sec-function-instances-name
+if (DESCRIPTORS && !(NAME in FunctionPrototype)) {
+  defineProperty(FunctionPrototype, NAME, {
+    configurable: true,
+    get: function () {
+      try {
+        return FunctionPrototypeToString.call(this).match(nameRE)[1];
+      } catch (error) {
+        return '';
+      }
+    }
+  });
+}
+
+
+/***/ }),
+
 /***/ "b575":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3187,17 +3220,6 @@ module.exports = function (input, PREFERRED_STRING) {
 /***/ (function(module, exports) {
 
 module.exports = false;
-
-
-/***/ }),
-
-/***/ "c4dd":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_CaptchaInputBox_vue_vue_type_style_index_0_id_578970f6_lang_less_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("9213");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_CaptchaInputBox_vue_vue_type_style_index_0_id_578970f6_lang_less_scoped_true__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_CaptchaInputBox_vue_vue_type_style_index_0_id_578970f6_lang_less_scoped_true__WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
 
 
 /***/ }),
@@ -3568,6 +3590,13 @@ var wellKnownSymbol = __webpack_require__("b622");
 
 exports.f = wellKnownSymbol;
 
+
+/***/ }),
+
+/***/ "e63a":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -4108,7 +4137,7 @@ module.exports = function (key) {
 __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
-__webpack_require__.d(__webpack_exports__, "CaptchaInputBox", function() { return /* reexport */ CaptchaInputBox; });
+__webpack_require__.d(__webpack_exports__, "CaptchaInputVue3", function() { return /* reexport */ CaptchaInputVue3; });
 
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
 // This file is imported into lib/wc client bundles.
@@ -4134,15 +4163,18 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es.function.name.js
+var es_function_name = __webpack_require__("b0c0");
+
 // EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/components/CaptchaInputBox.vue?vue&type=template&id=578970f6&scoped=true
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/components/CaptchaInputVue3.vue?vue&type=template&id=7d616eb5&scoped=true
 
 
-var _withId = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root_Vue_["withScopeId"])("data-v-578970f6");
+var _withId = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root_Vue_["withScopeId"])("data-v-7d616eb5");
 
-Object(external_commonjs_vue_commonjs2_vue_root_Vue_["pushScopeId"])("data-v-578970f6");
+Object(external_commonjs_vue_commonjs2_vue_root_Vue_["pushScopeId"])("data-v-7d616eb5");
 
 var _hoisted_1 = {
   class: "localCaptcha-input"
@@ -4177,7 +4209,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
     }]]) : Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createCommentVNode"])("", true)]);
   }), 128))]);
 });
-// CONCATENATED MODULE: ./src/components/CaptchaInputBox.vue?vue&type=template&id=578970f6&scoped=true
+// CONCATENATED MODULE: ./src/components/CaptchaInputVue3.vue?vue&type=template&id=7d616eb5&scoped=true
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.join.js
 var es_array_join = __webpack_require__("a15b");
@@ -4312,15 +4344,15 @@ function _asyncToGenerator(fn) {
     });
   };
 }
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/components/CaptchaInputBox.vue?vue&type=script&lang=js
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/components/CaptchaInputVue3.vue?vue&type=script&lang=js
 
 
 
 
 
 
-/* harmony default export */ var CaptchaInputBoxvue_type_script_lang_js = ({
-  name: 'CaptchaInputBox',
+/* harmony default export */ var CaptchaInputVue3vue_type_script_lang_js = ({
+  name: 'CaptchaInputVue3',
   props: {
     // 验证码长度
     number: {
@@ -4456,28 +4488,29 @@ function _asyncToGenerator(fn) {
     });
   }
 });
-// CONCATENATED MODULE: ./src/components/CaptchaInputBox.vue?vue&type=script&lang=js
+// CONCATENATED MODULE: ./src/components/CaptchaInputVue3.vue?vue&type=script&lang=js
  
-// EXTERNAL MODULE: ./src/components/CaptchaInputBox.vue?vue&type=style&index=0&id=578970f6&lang=less&scoped=true
-var CaptchaInputBoxvue_type_style_index_0_id_578970f6_lang_less_scoped_true = __webpack_require__("c4dd");
+// EXTERNAL MODULE: ./src/components/CaptchaInputVue3.vue?vue&type=style&index=0&id=7d616eb5&lang=less&scoped=true
+var CaptchaInputVue3vue_type_style_index_0_id_7d616eb5_lang_less_scoped_true = __webpack_require__("5e0a");
 
-// CONCATENATED MODULE: ./src/components/CaptchaInputBox.vue
-
-
+// CONCATENATED MODULE: ./src/components/CaptchaInputVue3.vue
 
 
 
-CaptchaInputBoxvue_type_script_lang_js.render = render
-CaptchaInputBoxvue_type_script_lang_js.__scopeId = "data-v-578970f6"
 
-/* harmony default export */ var CaptchaInputBox = (CaptchaInputBoxvue_type_script_lang_js);
+
+CaptchaInputVue3vue_type_script_lang_js.render = render
+CaptchaInputVue3vue_type_script_lang_js.__scopeId = "data-v-7d616eb5"
+
+/* harmony default export */ var CaptchaInputVue3 = (CaptchaInputVue3vue_type_script_lang_js);
 // CONCATENATED MODULE: ./src/index.js
+
 
 
 function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component('CaptchaInputBox', CaptchaInputBox);
+  Vue.component(CaptchaInputVue3.name, CaptchaInputVue3);
 }
 
 
@@ -4575,4 +4608,4 @@ module.exports = global.Promise;
 
 /******/ });
 });
-//# sourceMappingURL=CaptchaInputBox.umd.js.map
+//# sourceMappingURL=CaptchaInputVue3.umd.js.map
