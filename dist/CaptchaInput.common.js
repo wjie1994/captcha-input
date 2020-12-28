@@ -1,14 +1,5 @@
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("vue"));
-	else if(typeof define === 'function' && define.amd)
-		define([], factory);
-	else if(typeof exports === 'object')
-		exports["CaptchaInputVue3"] = factory(require("vue"));
-	else
-		root["CaptchaInputVue3"] = factory(root["Vue"]);
-})((typeof self !== 'undefined' ? self : this), function(__WEBPACK_EXTERNAL_MODULE__8bbf__) {
-return /******/ (function(modules) { // webpackBootstrap
+module.exports =
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -211,6 +202,17 @@ module.exports = !DESCRIPTORS && !fails(function () {
     get: function () { return 7; }
   }).a != 7;
 });
+
+
+/***/ }),
+
+/***/ "104f":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_CaptchaInput_vue_vue_type_style_index_0_id_32375d4d_lang_less_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("8c31");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_CaptchaInput_vue_vue_type_style_index_0_id_32375d4d_lang_less_scoped_true__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_CaptchaInput_vue_vue_type_style_index_0_id_32375d4d_lang_less_scoped_true__WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
 
 
 /***/ }),
@@ -1088,17 +1090,6 @@ module.exports = function (bitmap, value) {
 
 /***/ }),
 
-/***/ "5e0a":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_CaptchaInputVue3_vue_vue_type_style_index_0_id_7d616eb5_lang_less_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("e63a");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_CaptchaInputVue3_vue_vue_type_style_index_0_id_7d616eb5_lang_less_scoped_true__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_CaptchaInputVue3_vue_vue_type_style_index_0_id_7d616eb5_lang_less_scoped_true__WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
-
-
-/***/ }),
-
 /***/ "605d":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1596,7 +1587,14 @@ module.exports = store.inspectSource;
 /***/ "8bbf":
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE__8bbf__;
+module.exports = require("vue");
+
+/***/ }),
+
+/***/ "8c31":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -3593,13 +3591,6 @@ exports.f = wellKnownSymbol;
 
 /***/ }),
 
-/***/ "e63a":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "e667":
 /***/ (function(module, exports) {
 
@@ -4137,7 +4128,7 @@ module.exports = function (key) {
 __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
-__webpack_require__.d(__webpack_exports__, "CaptchaInputVue3", function() { return /* reexport */ CaptchaInputVue3; });
+__webpack_require__.d(__webpack_exports__, "CaptchaInput", function() { return /* reexport */ CaptchaInput; });
 
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
 // This file is imported into lib/wc client bundles.
@@ -4169,12 +4160,12 @@ var es_function_name = __webpack_require__("b0c0");
 // EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/components/CaptchaInputVue3.vue?vue&type=template&id=7d616eb5&scoped=true
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/components/CaptchaInput.vue?vue&type=template&id=32375d4d&scoped=true
 
 
-var _withId = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root_Vue_["withScopeId"])("data-v-7d616eb5");
+var _withId = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root_Vue_["withScopeId"])("data-v-32375d4d");
 
-Object(external_commonjs_vue_commonjs2_vue_root_Vue_["pushScopeId"])("data-v-7d616eb5");
+Object(external_commonjs_vue_commonjs2_vue_root_Vue_["pushScopeId"])("data-v-32375d4d");
 
 var _hoisted_1 = {
   class: "localCaptcha-input"
@@ -4209,7 +4200,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
     }]]) : Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createCommentVNode"])("", true)]);
   }), 128))]);
 });
-// CONCATENATED MODULE: ./src/components/CaptchaInputVue3.vue?vue&type=template&id=7d616eb5&scoped=true
+// CONCATENATED MODULE: ./src/components/CaptchaInput.vue?vue&type=template&id=32375d4d&scoped=true
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.join.js
 var es_array_join = __webpack_require__("a15b");
@@ -4344,15 +4335,15 @@ function _asyncToGenerator(fn) {
     });
   };
 }
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/components/CaptchaInputVue3.vue?vue&type=script&lang=js
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/components/CaptchaInput.vue?vue&type=script&lang=js
 
 
 
 
 
 
-/* harmony default export */ var CaptchaInputVue3vue_type_script_lang_js = ({
-  name: 'CaptchaInputVue3',
+/* harmony default export */ var CaptchaInputvue_type_script_lang_js = ({
+  name: 'CaptchaInput',
   props: {
     // 验证码长度
     number: {
@@ -4488,21 +4479,21 @@ function _asyncToGenerator(fn) {
     });
   }
 });
-// CONCATENATED MODULE: ./src/components/CaptchaInputVue3.vue?vue&type=script&lang=js
+// CONCATENATED MODULE: ./src/components/CaptchaInput.vue?vue&type=script&lang=js
  
-// EXTERNAL MODULE: ./src/components/CaptchaInputVue3.vue?vue&type=style&index=0&id=7d616eb5&lang=less&scoped=true
-var CaptchaInputVue3vue_type_style_index_0_id_7d616eb5_lang_less_scoped_true = __webpack_require__("5e0a");
+// EXTERNAL MODULE: ./src/components/CaptchaInput.vue?vue&type=style&index=0&id=32375d4d&lang=less&scoped=true
+var CaptchaInputvue_type_style_index_0_id_32375d4d_lang_less_scoped_true = __webpack_require__("104f");
 
-// CONCATENATED MODULE: ./src/components/CaptchaInputVue3.vue
-
-
+// CONCATENATED MODULE: ./src/components/CaptchaInput.vue
 
 
 
-CaptchaInputVue3vue_type_script_lang_js.render = render
-CaptchaInputVue3vue_type_script_lang_js.__scopeId = "data-v-7d616eb5"
 
-/* harmony default export */ var CaptchaInputVue3 = (CaptchaInputVue3vue_type_script_lang_js);
+
+CaptchaInputvue_type_script_lang_js.render = render
+CaptchaInputvue_type_script_lang_js.__scopeId = "data-v-32375d4d"
+
+/* harmony default export */ var CaptchaInput = (CaptchaInputvue_type_script_lang_js);
 // CONCATENATED MODULE: ./src/index.js
 
 
@@ -4510,7 +4501,7 @@ CaptchaInputVue3vue_type_script_lang_js.__scopeId = "data-v-7d616eb5"
 function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component(CaptchaInputVue3.name, CaptchaInputVue3);
+  Vue.component(CaptchaInput.name, CaptchaInput);
 }
 
 
@@ -4607,5 +4598,4 @@ module.exports = global.Promise;
 /***/ })
 
 /******/ });
-});
-//# sourceMappingURL=CaptchaInputVue3.umd.js.map
+//# sourceMappingURL=CaptchaInput.common.js.map
