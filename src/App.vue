@@ -1,14 +1,14 @@
 <template>
-  <captcha-input-vue3></captcha-input-vue3>
+  <captcha-input></captcha-input>
 </template>
 
 <script>
-import { CaptchaInputVue3 } from './index'
+import { CaptchaInput } from './index'
 
 export default {
   name: 'App',
   components: {
-    CaptchaInputVue3
+    CaptchaInput
   }
 }
 </script>

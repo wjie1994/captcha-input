@@ -1,14 +1,14 @@
-import CaptchaInputVue3 from './components/CaptchaInputVue3'
+import CaptchaInput from './components/CaptchaInput'
 
 function install (Vue) {
     if (install.installed) return
     install.installed = true
-    Vue.component(CaptchaInputVue3.name, CaptchaInputVue3)
+    Vue.component(CaptchaInput.name, CaptchaInput)
 }
 
 
 export {
-    CaptchaInputVue3
+    CaptchaInput
 }
 
 export default {

@@ -6,11 +6,11 @@
             <p class="show-input"
                @click="handleShowInput(item - 1)"
                v-text="localCaptcha[item - 1]"></p>
-            <input v-if="item - 1 === activeIndex" 
-                   ref="captchaItem" 
-                   v-model.trim="localCaptcha[item - 1]" 
+            <input v-if="item - 1 === activeIndex"
+                   ref="captchaItem"
+                   v-model.trim="localCaptcha[item - 1]"
                    class="input-item"
-                   maxlength="1" 
+                   maxlength="1"
                    @keydown.prevent="handleKeyDown($event, item - 1)" />
         </div>
     </div>
@@ -21,7 +21,7 @@
 import { getCurrentInstance, onMounted, ref, reactive, toRefs } from 'vue'
 
 export default {
-    name: 'CaptchaInputVue3',
+    name: 'CaptchaInput',
     props: {
         // 验证码长度
         number: {
@@ -35,7 +35,7 @@ export default {
     },
     setup(props, context) {
         const { ctx } = getCurrentInstance()
-        
+
         const data = reactive({
             localCaptcha: [],
             activeIndex: 0,
@@ -103,7 +103,7 @@ export default {
             }
             ctx.$emit('update:captcha', data.localCaptcha.join(''))
         }
-        
+
         return {
             ...toRefs(data),
             captchaItem,
@@ -149,7 +149,7 @@ export default {
             text-align: center;
             color: #222222;
             outline: 0;
-            
+
             &:focus {
                 border-color: #409eff;
             }
