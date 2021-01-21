@@ -18,7 +18,7 @@
 
 <script>
 
-import { getCurrentInstance, onMounted, ref, reactive, toRefs } from 'vue'
+import { onMounted, ref, reactive, toRefs, nextTick } from 'vue'
 
 export default {
     name: 'CaptchaInput',
@@ -34,8 +34,6 @@ export default {
         }
     },
     setup(props, context) {
-        const { ctx } = getCurrentInstance()
-
         const data = reactive({
             localCaptcha: [],
             activeIndex: 0,
@@ -59,7 +57,7 @@ export default {
             // 如果当前 方向是正向的
             if (!data.captchaDirection && data.activeIndex < props.number - 1) {
                 data.activeIndex = index + 1
-                await ctx.$nextTick()
+                await nextTick()
                 captchaItem.value.focus()
             }
         }
@@ -72,7 +70,7 @@ export default {
         const handleShowInput = async index => {
             data.captchaDirection = 0
             data.activeIndex = index
-            await ctx.$nextTick()
+            await nextTick()
             captchaItem.value.focus()
         }
 
@@ -101,7 +99,7 @@ export default {
                     handleChangeCaptchaItem(index)
                 }
             }
-            ctx.$emit('update:captcha', data.localCaptcha.join(''))
+            context.emit('update:captcha', data.localCaptcha.join(''))
         }
 
         return {

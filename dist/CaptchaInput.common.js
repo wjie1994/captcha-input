@@ -206,12 +206,12 @@ module.exports = !DESCRIPTORS && !fails(function () {
 
 /***/ }),
 
-/***/ "104f":
+/***/ "0f4f":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_CaptchaInput_vue_vue_type_style_index_0_id_32375d4d_lang_less_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("8c31");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_CaptchaInput_vue_vue_type_style_index_0_id_32375d4d_lang_less_scoped_true__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_CaptchaInput_vue_vue_type_style_index_0_id_32375d4d_lang_less_scoped_true__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_CaptchaInput_vue_vue_type_style_index_0_id_8506e846_lang_less_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("f2ad");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_CaptchaInput_vue_vue_type_style_index_0_id_8506e846_lang_less_scoped_true__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_CaptchaInput_vue_vue_type_style_index_0_id_8506e846_lang_less_scoped_true__WEBPACK_IMPORTED_MODULE_0__);
 /* unused harmony reexport * */
 
 
@@ -1588,13 +1588,6 @@ module.exports = store.inspectSource;
 /***/ (function(module, exports) {
 
 module.exports = require("vue");
-
-/***/ }),
-
-/***/ "8c31":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -4072,6 +4065,13 @@ module.exports.f = function (C) {
 
 /***/ }),
 
+/***/ "f2ad":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "f5df":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4160,12 +4160,12 @@ var es_function_name = __webpack_require__("b0c0");
 // EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/components/CaptchaInput.vue?vue&type=template&id=32375d4d&scoped=true
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/components/CaptchaInput.vue?vue&type=template&id=8506e846&scoped=true
 
 
-var _withId = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root_Vue_["withScopeId"])("data-v-32375d4d");
+var _withId = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root_Vue_["withScopeId"])("data-v-8506e846");
 
-Object(external_commonjs_vue_commonjs2_vue_root_Vue_["pushScopeId"])("data-v-32375d4d");
+Object(external_commonjs_vue_commonjs2_vue_root_Vue_["pushScopeId"])("data-v-8506e846");
 
 var _hoisted_1 = {
   class: "localCaptcha-input"
@@ -4200,7 +4200,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
     }]]) : Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createCommentVNode"])("", true)]);
   }), 128))]);
 });
-// CONCATENATED MODULE: ./src/components/CaptchaInput.vue?vue&type=template&id=32375d4d&scoped=true
+// CONCATENATED MODULE: ./src/components/CaptchaInput.vue?vue&type=template&id=8506e846&scoped=true
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.join.js
 var es_array_join = __webpack_require__("a15b");
@@ -4356,9 +4356,6 @@ function _asyncToGenerator(fn) {
     }
   },
   setup: function setup(props, context) {
-    var _getCurrentInstance = Object(external_commonjs_vue_commonjs2_vue_root_Vue_["getCurrentInstance"])(),
-        ctx = _getCurrentInstance.ctx;
-
     var data = Object(external_commonjs_vue_commonjs2_vue_root_Vue_["reactive"])({
       localCaptcha: [],
       activeIndex: 0,
@@ -4389,7 +4386,7 @@ function _asyncToGenerator(fn) {
 
                 data.activeIndex = index + 1;
                 _context.next = 4;
-                return ctx.$nextTick();
+                return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["nextTick"])();
 
               case 4:
                 captchaItem.value.focus();
@@ -4422,7 +4419,7 @@ function _asyncToGenerator(fn) {
                 data.captchaDirection = 0;
                 data.activeIndex = index;
                 _context2.next = 4;
-                return ctx.$nextTick();
+                return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["nextTick"])();
 
               case 4:
                 captchaItem.value.focus();
@@ -4469,7 +4466,7 @@ function _asyncToGenerator(fn) {
         }
       }
 
-      ctx.$emit('update:captcha', data.localCaptcha.join(''));
+      context.emit('update:captcha', data.localCaptcha.join(''));
     };
 
     return _objectSpread2(_objectSpread2({}, Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toRefs"])(data)), {}, {
@@ -4481,8 +4478,8 @@ function _asyncToGenerator(fn) {
 });
 // CONCATENATED MODULE: ./src/components/CaptchaInput.vue?vue&type=script&lang=js
  
-// EXTERNAL MODULE: ./src/components/CaptchaInput.vue?vue&type=style&index=0&id=32375d4d&lang=less&scoped=true
-var CaptchaInputvue_type_style_index_0_id_32375d4d_lang_less_scoped_true = __webpack_require__("104f");
+// EXTERNAL MODULE: ./src/components/CaptchaInput.vue?vue&type=style&index=0&id=8506e846&lang=less&scoped=true
+var CaptchaInputvue_type_style_index_0_id_8506e846_lang_less_scoped_true = __webpack_require__("0f4f");
 
 // CONCATENATED MODULE: ./src/components/CaptchaInput.vue
 
@@ -4491,7 +4488,7 @@ var CaptchaInputvue_type_style_index_0_id_32375d4d_lang_less_scoped_true = __web
 
 
 CaptchaInputvue_type_script_lang_js.render = render
-CaptchaInputvue_type_script_lang_js.__scopeId = "data-v-32375d4d"
+CaptchaInputvue_type_script_lang_js.__scopeId = "data-v-8506e846"
 
 /* harmony default export */ var CaptchaInput = (CaptchaInputvue_type_script_lang_js);
 // CONCATENATED MODULE: ./src/index.js
